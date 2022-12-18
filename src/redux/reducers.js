@@ -2,7 +2,7 @@ import { ADD_TODO } from './actions';
 // state
 // ['코딩', '점심 먹기']
 
-function toDoApp(previousState = [], action) {
+export function toDoApp(previousState = [], action) {
   // 초기값을 설정 해주는 부분
 
   if (action.type === ADD_TODO) {
